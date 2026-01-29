@@ -1,0 +1,80 @@
+{
+  "languages": {
+    "tr": {
+      "nav": {
+        "brand": "Kişisel Site",
+        "about": "Hakkımda",
+        "projects": "Projeler",
+        "contact": "İletişim",
+        "theme": "Tema",
+        "language": "Dil"
+      },
+      "hero": {
+        "title": "Merhaba, ben Utku",
+        "subtitle": "Frontend ve full‑stack projeler geliştiriyorum. Modern, hızlı ve erişilebilir arayüzler tasarlıyorum.",
+        "primary": "Projelerim",
+        "secondary": "İletişime Geç"
+      },
+      "about": {
+        "title": "Hakkımda",
+        "text": "React, TypeScript ve Node.js ile üretim odaklı projeler geliştiriyorum. Temiz kod ve kullanıcı deneyimi benim için öncelikli."
+      },
+      "projects": {
+        "title": "Projeler",
+        "items": [
+          { "title": "Task Manager", "description": "React + Node.js ile görev yönetim uygulaması", "link": "#" },
+          { "title": "Realtime Chat", "description": "WebSocket tabanlı gerçek zamanlı sohbet", "link": "#" },
+          { "title": "Portfolio", "description": "Kişisel portfolyo ve blog", "link": "#" }
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "Her zaman yeni fırsatlara açığım. Bana e‑posta ile ulaşabilirsiniz.",
+        "cta": "E‑posta Gönder",
+        "apiTitle": "API Demo",
+        "apiText": "Axios ile reqres.in servisine örnek POST isteği gönder.",
+        "apiButton": "Demo İsteği Gönder",
+        "apiSuccess": "Başarılı! Gönderilen ID:",
+        "apiError": "İstek başarısız. Tekrar deneyin."
+      }
+    },
+    "en": {
+      "nav": {
+        "brand": "Personal Site",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "theme": "Theme",
+        "language": "Language"
+      },
+      "hero": {
+        "title": "Hi, I'm Utku",
+        "subtitle": "I build modern, fast, and accessible interfaces with React and Node.js.",
+        "primary": "My Projects",
+        "secondary": "Contact Me"
+      },
+      "about": {
+        "title": "About",
+        "text": "I build production-ready apps with React, TypeScript, and Node.js. Clean code and great UX are my priorities."
+      },
+      "projects": {
+        "title": "Projects",
+        "items": [
+          { "title": "Task Manager", "description": "Task management app with React + Node.js", "link": "#" },
+          { "title": "Realtime Chat", "description": "WebSocket based realtime chat", "link": "#" },
+          { "title": "Portfolio", "description": "Personal portfolio and blog", "link": "#" }
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "I'm open to new opportunities. Feel free to email me.",
+        "cta": "Send Email",
+        "apiTitle": "API Demo",
+        "apiText": "Send a sample POST request to reqres.in via Axios.",
+        "apiButton": "Send Demo Request",
+        "apiSuccess": "Success! Sent ID:",
+        "apiError": "Request failed. Please try again."
+      }
+    }
+  }
+}

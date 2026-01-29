@@ -1,0 +1,84 @@
+.section {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.text {
+  margin-top: 0.75rem;
+  color: var(--muted);
+}
+
+.button {
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--fg);
+  color: var(--bg);
+  transition: opacity 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.apiBox {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+
+.apiTitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.apiText {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.apiButton {
+  margin-top: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  background: var(--secondary);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+.apiButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.apiStatus {
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--link);
+}
+
+.apiError {
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: #ef4444;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}

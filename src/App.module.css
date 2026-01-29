@@ -1,0 +1,18 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.footerInner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}

@@ -1,0 +1,22 @@
+.section {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.text {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  max-width: 48rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
